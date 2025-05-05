@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Page Title</title>
+   </head>
+   <body style="background-color: #FFE2E2;">
+      <nav class="navbar navbar-expand-lg bg-light navbar-light">
+         <img src="https://i.pinimg.com/736x/87/09/73/87097383f67d65d3dd5085f5c0dfe6bc.jpg" width="50" class="mr-2">
+         <a class="navbar-brand" href="#" style="color: #4B0082;">Happiness & World Data</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbar-body">
+            <ul class="navbar-nav mr-auto"></ul>
+            <div class="collapse navbar-collapse" id="navbar-body">
+               <ul class="navbar-nav mr-auto"></ul>
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="main-project-page-test.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="EconomyGlobalPage.html">Economy & Global</a></li>
+                  <li class="nav-item"><a class="nav-link" href="HappinessPage.html">Happiness</a></li>
+                  <li class="nav-item"><a class="nav-link" href="HealthDemographicPage.html">Health & Demographics</a></li>
+         </div>
+      </nav>
+
+
+      <picture>
+        <source srcset="separate_page_cover3.jpg" type="image/svg+xml" width="1000">
+        <img src="separate_page_cover3.jpg" class="w-100 d-block" alt="Responsive image">
+     </picture>
+     
+     <div class="container" id="bsr-wrapper">
+        <div class='py-3 my-4'></div>
+     </div>
+
+
+      <div class="container" id="bsr-wrapper">
+
+         <div class="py-3 my-5"></div>
+         <h1>Question 1: How does child mortality compare to total fertility?</h1>
+         <div class="my-5"></div>
+         <iframe src="./fert_mort.html" height="700" width="1000"></iframe>
+
+         <div class="py-3 my-4"></div>
+         <h1>Insights</h1>
+         <div class="my-5"></div>
+         <p>There is a high concentration of low child mortality and low child fertility based on the histogram and has a stark decline after approaching a certain value. Additionally, there is a high concentration
+            among the regions of low child mortality and low child fertility. Lastly, there is a dense concentration seen in the density contour map of where there is a correlation between the two metrics. 
+         </p>
+
+         <div class="py-3 my-5"></div>
+         <h1>Question 2: How does healthy life expectancy differ throughout the world?</h1>
+         <div class="my-5"></div>
+         <iframe src="./LifeExpec.html" height="700" width="1000"></iframe>
+         <div class="my-5"></div>
+         <iframe src="./health_lifeExpecGEO.html" height="700" width="1000"></iframe>
+
+         <div class="py-3 my-4"></div>
+         <h1>Insights</h1>
+         <div class="my-5"></div>
+         <p>Countries with higher life expectancy typically border eachother, concuring with the previous question. However, there does not appear to be a high correlation between health and life expectancy as 
+            some countries have the similar health but different life expectancy. Countries with higher healthy life expectancy often form regional clusters, with neighboring nations exhibiting similar outcomes, and the reverse is also observed in regions with lower health metrics.
+         </p>
+
+         <div class="py-3 my-5"></div>
+         <h1>Question 3: How does inflation affect life expectancy?</h1>
+         <div class="my-5"></div>
+         <iframe src="./infl_lifeExpec.html" height="700" width="1000"></iframe>
+
+         <div class="py-3 my-4"></div>
+         <h1>Insights</h1>
+         <div class="my-5"></div>
+         <p>There does not appear to be a correlation between inflation and life expectancy. Addtionally, there does not appear to be a correlation within regions on either metric. Asia has a variety of life expectancies depending on countries.
+            Europe however only has a life expectancy of 65 and above. However, in Africa, the life expectancy barely goes over 65 years old. This correlates with our previous visualizations on GDP and other economic factors. 
+            
+         </p>
+
+         <div class="container" id="bsr-wrapper">
+            <div class='py-3 my-4'></div>
+         </div>
+
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script
